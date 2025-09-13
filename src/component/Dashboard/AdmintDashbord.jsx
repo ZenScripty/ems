@@ -3,10 +3,10 @@ import Navbar from "../others/Navbar";
 import CreateTask from "../../component/others/CreateTask"
 import AllTask from "../others/AllTask";
 
-const AdmintDashbord = () => {
+const AdmintDashbord = ({ onLogout }) => {
 return (
     <div className="min-h-screen   p-8">
-        <Navbar />
+        <Navbar onLogout={onLogout} />
        <CreateTask/>
        <AllTask/>
     </div>
