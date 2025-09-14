@@ -14,3 +14,6 @@ display: none;
 #allListConatiner::-webkit-scrollbar{
 display: none;
 }
+.noscrollbar {
+  scrollbar-width: none;
+}
